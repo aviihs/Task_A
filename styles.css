@@ -1,0 +1,136 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles for centering the container and setting background */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #f7a36f, #c83ef1);
+  overflow: hidden;
+}
+
+/* Container style to align and center the boxes */
+.container {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -20%); 
+  width: 400px;
+  height: 600px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Box styles for all boxes (Top, Main, Bottom) */
+.box {
+  position: absolute;
+  width: 400px;
+  height: 370px;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  cursor: grab;
+  z-index: 1;
+  border-top: solid 2px #ffffff33;
+  border-left: solid 2px #ffffff33;
+  background-color: #f7a36f34;
+  box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.0579);
+}
+
+/* Style for the large box section */
+.large {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/* Row layout style for aligning elements inside the box */
+.row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Circle style inside the row */
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+}
+
+/* Column layout style for stacking elements vertically */
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Style for the long bars */
+.long {
+  width: 220px;
+  height: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+}
+
+/* Style for the short bars */
+.short {
+  width: 100px;
+  height: 8px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+}
+
+/* Specific positioning styles for the boxes */
+.top {
+  top: 10px;
+  width: 340px;
+  height: 270px;
+  z-index: 1;
+  border-top: solid 2px #ffffff33;
+  border-left: solid 2px #ffffff33;
+  background-color: #f7a36f34;
+  box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.0579);
+}
+
+.main {
+  top: 200px; 
+  width: 400px;
+  height: 370px;
+  border-top: solid 2px #ffffff33;
+  border-left: solid 2px #ffffff33;
+  background-color: #f7a36f34;
+  box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.0579);
+  z-index: 2;
+}
+
+.bottom {
+  top: 490px; 
+  width: 340px;
+  height: 270px;
+  z-index: 1;
+  border-top: solid 2px #ffffff33;
+  border-left: solid 2px #ffffff33;
+  background-color: #f7a36f34;
+  box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.0579);
+}
+
+/* Styling for the text inside the boxes */
+p {
+  text-align: center;
+  color: rgba(7, 4, 2, 0.455);
+}
