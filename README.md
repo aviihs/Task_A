@@ -4,5 +4,5 @@ For this assessment provided by Vrit Technology Company, I worked on creating a 
 
 Using HTML for the structure, CSS for styling, and JavaScript to implement the interactivity, I strived to make the design both aesthetically pleasing and user-friendly. Through careful attention to detail, I worked to ensure that the user interface not only looks good but also functions efficiently.
 
-You can watch the task clicking ==> [HERE](https://aviihs.github.io/) to visit the site.
-# Task_A
+You can watch the task clicking ==> [HERE](https://aviihs.github.io](https://aviihs.github.io/Task_A/ind.html) to visit the site.
+# ind.html
