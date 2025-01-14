@@ -11,4 +11,4 @@ You can watch the task by clicking ==> [HERE](https://aviihs.github.io/Task_A/in
 
 # task B
 
-and for task B repo by clicking ==> [HERE](https://aviihs.github.io/Task_A/ind.html).
+and for task B repo by clicking ==> [HERE](https://github.com/aviihs/Task_B).
